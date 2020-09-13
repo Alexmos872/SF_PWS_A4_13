@@ -1,0 +1,366 @@
+/*body {
+    background-color: #e0e0e0;
+}*/
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../fonts/Open_Sans/OpenSans-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+src: url('../fonts/open_sans/OpenSans-Bold.ttf');
+font-family: "Open Sans";
+font-weight: normal;
+font-style: normal;
+}
+
+.header {
+    min-height: 89px;
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    width:100%;
+    flex-wrap: wrap;
+}
+
+.block_menu {
+/*    background-color: green;*/
+    min-height: 89px;
+    min-width: 100px
+}
+
+.block_menu a{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #E0E0E0;
+    padding-top: 10px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding-bottom: 4px;
+}
+
+.nav li:hover {
+    background-color: #FF3F40;
+}
+
+.FIRST_FLOOR {
+    margin: 0 auto;
+    /*поместить по центру */
+    display: flex;
+    flex-direction: row;
+/*    justify-content: center;*/
+    justify-content: space-around;
+/*    width: 1579px;*/
+    height: 688px;
+    background: #F6F2F2;
+}
+
+.ORGANAISATION {
+    max-width: 624px;
+    padding: 108px 0 123px;
+/*    background: green;*/
+}
+
+.ORGANAISATION_TEXT {
+/*    display: inline-block;*/
+    display: flex;
+/*    align-items: flex-end;*/
+    flex-direction: column;
+    width: 100%;
+    vertical-align: top;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15.9953px;
+/*    background: red;*/
+}
+
+.ORGANAISATION_TEXT h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.ORGANAISATION_FOTO_01 {
+    max-width: 624px;
+}
+
+.ORGANAISATION_FOTO {
+    margin-top: 70px;
+    margin-right: 0px;
+}
+
+.contact-link {
+    color: #ffffff;
+    display: inline-block;
+    background-color: #ff3f40;
+    width: 227px;
+    padding: 22px 0;
+    text-align: center;
+    text-decoration: none;
+}
+
+.subscribe {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    background-color: #2c2c2c;
+    padding-top: 124px;
+    padding-bottom: 140px;
+}   
+
+.subscribe__header {
+    max-width: 1249px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.subscribe__text {
+    color: #fff;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.subscribe__heading {
+    color: #fff;
+    opacity: 0.8;
+    text-transform: none;
+    margin-bottom: 30px;
+}
+
+.subscribe__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe__form .subscribe__input {
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    flex: 0 1 521px;
+    min-height: 79px;
+    padding: 0;
+    padding-left: 35px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 22px;
+    background-color: #fff;
+}
+
+.subscribe__form .subscribe__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    width: 214px;
+    min-height: 79px;
+    background-color: #ff2d2d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.get-in-touch__header {
+    box-sizing: border-box;
+    max-width: 1249px;
+    margin: 0 auto;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    width: 100%;
+    padding-top: 92px;
+}
+
+.get-in-touch__heading {
+    margin-bottom: 34px;
+}
+
+.get-in-touch__text {
+    max-width: 720px;
+    margin-bottom: 50px;
+}
+
+.get-in-touch__line {
+    margin-left: 0;
+    margin-bottom: 75px;
+}
+
+/* Feedback */
+.get-in-touch__body {
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: nowrap;
+    padding-bottom: 110px;
+    width: 100%;
+    max-width: 100%;
+    align-items: stretch;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.get-in-touch__left-box {
+    flex: 1 1 auto;
+}
+
+.get-in-touch__feedback {
+    max-width: 731px;
+    margin-right: 107px;
+    padding-left: 40px;
+}
+
+.feedback__form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.feedback__input {
+    color: #8e8e8e;
+    box-sizing: border-box;
+    padding-left: 54px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;  
+    margin-bottom: 45px;
+}
+
+.feedback__name,
+.feedback__mail {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    width: 339px;
+    height: 69px;
+    background-color: #f3f3f3;
+}
+
+.feedback__name {
+    margin-right: 53px;
+}
+
+.feedback__message {
+    resize: none;
+    font-size: 16px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    width: 731px;
+    height: 249px;
+    box-sizing: border-box;
+    padding: 35px 54px;
+    margin-bottom: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f3f3f3;  
+}
+
+.feedback__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 731px;
+    height: 72px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    background-color: #ff2d2d;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+} 
+
+/* Contacts */
+.get-in-touch__contacts {
+    position: relative;
+    color: #e0e0e0;
+    background-color: #2c2c2c;
+    padding: 125px 78px;
+    max-width: 290px;
+}
+
+.contacts__heading {
+    color: #e0e0e0;
+    font-size: 18px;
+    margin-bottom: 13px;
+}
+
+.contacts-address {
+    line-height: 1.75;
+}
+
+.contacts__line {
+    margin-bottom: 17px;
+}
+
+.get-in-touch__right-box {
+    flex: 1 1 auto;
+}
+
+.contacts__decor {
+    background-color: #2c2c2c;
+}
+
+/* Ниже идут два других варианта создания этой декоративной части */
+.contacts-background {
+    position: absolute;
+    z-index: -1;
+    width: 100vw;
+    height: 481px;
+    background-color: #2c2c2c;
+    clip-path: polygon(1000px 0, 100% 0, 100% 100%, 1000px 100%);
+    /* Свойство clip-path позволяет наложить на элемент маску, которая может визуально скрыть части этого элемента. Макса может быть самой разной формы, в данном случае это прямоугольник. */
+}
+
+.contacts::after {
+    /* content: ''; */
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateX(100%);
+    /* Свойство transform позволяет изменять внешний вид элементов. Значение translate сдвигает элемент по осям X, Y или по обеим сразу. Его особенность - проценты расчитываются не от размеров родителя, а от самого элемента. При этом такой сдвинутый элемент не участвует в потоке. */
+    width: 100vw;
+    height: 100%;
+    background-color: #2c2c2c;
+}
+/* Второй способ сделать темную подложку - создать пустой псевдоэлемент, стилизовать его и тоже исопльзовать позиционирование. Этот подход лучше тем, что вам не нужно изменять HTML. Сейчас работает этот способ, поэтому элемент в HTML отключен. */
+
+
+.footer {
+    background-color: #2c2c2c;
+    padding: 0 1vw;
+    min-height: 113px;
+}
+
+.footer__content {
+    box-sizing: border-box;
+    padding: 19px 0 0;
+    color: #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 113px;
+    background-color: #2c2c2c;
+}
